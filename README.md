@@ -15,3 +15,15 @@
       - 한 페이지에 5개씩 => 3개 필요.
       - 한 페이지에 3개씩 => 5개 필요.
       - 한 페이지에 7개씩 => 2개 필요. 
+7. 파일(이미지)첨부하기
+    - 단일 파일 첨부
+    - 다중 파일 첨부
+    - 파일 첨부와 관련하여 추가될 부분들
+      - save.html
+      - BoardDTO
+      - BoardService.save()
+      - BoardEntity
+      - BoardFileEntity, BoardFileRepository 추가
+      - detail.html
+    - github에 올려놓은 코드를 보고 어떤 부분이 바뀌는지 잘 살펴보기.
+    - board_table(부모) - board_file_table(자식)
