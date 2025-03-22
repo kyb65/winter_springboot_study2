@@ -59,4 +59,11 @@ public class BoardController {
         model.addAttribute("board", board);
         return "detail";
     }
+
+    @GetMapping("/delete/{id}")
+    public String delete(@PathVariable Long id){
+        System.out.println("1");
+        boardService.delete(id);
+        return "redirect:/board/";
+    }
 }
